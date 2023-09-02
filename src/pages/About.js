@@ -18,11 +18,6 @@ const About = () => {
               <b>Aaaasdfefiuheag iuhhefw iu fewairucfh</b>. iuahwefipuh
               eaihusadg iuhcaiuewci abdsuf iuehwf piuweuc. ieauhf iuewuhf
               epwiuhhf weiuuhceiw uhfiue.
-              <br />
-              <br />
-              jhiouhefjaiophugj. eroihjs feroi fehw uhig soifjerwojf.
-              rejivdsfklj oirjewf fijsog. ojirewiuh uhireafh bb fabehubyhf buaf
-              fuainf uygauyg okjv eijosferhu.
             </p>
             <Link to={"/portfolio"} className="btn">
               View my work
