@@ -13,7 +13,7 @@ const Home = () => {
     <motion.section
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      exit={{ opacity: 0, transition: { duration: 0.5, delay: 1.4 } }}
+      exit={{ opacity: 0 }}
       transition={transition1}
       className="section">
       <div className="container mx-auto h-full relative">
