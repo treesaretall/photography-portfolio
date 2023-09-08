@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 
 import woodsbnw from "../img/about/woodsbnw.jpg";
 
@@ -8,7 +8,10 @@ import { motion } from "framer-motion";
 
 import { transition1 } from "../transitions";
 
+import { CursorContext } from "../context/CursorContext";
+
 const About = () => {
+  const { mouseEnterHandler, mouseLeaverHandler } = useContext(CursorContext);
   return (
     <motion.section
       initial={{ opacity: 0, y: "-80%" }}
@@ -16,7 +19,10 @@ const About = () => {
       exit={{ opacity: 0, y: "-80%" }}
       transition={transition1}
       className="section ">
-      <div className="container mx-auto h-full relative">
+      <div
+        onMouseEnter={mouseEnterHandler}
+        onMouseLeave={mouseLeaverHandler}
+        className="container mx-auto h-full relative">
         <div className="flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16">
           <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:order-none overflow-hidden">
             <img src={woodsbnw} alt="Matt in the forest" />
