@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73e69331.css",
+    "main.js": "/static/js/main.441c3fb2.js",
+    "static/media/Jade.JPG": "/static/media/Jade.592006af6c38a5cd96bb.JPG",
+    "static/media/Sandra.JPG": "/static/media/Sandra.1c4aaef04b4ae7b7243b.JPG",
+    "static/media/mecolor.jpg": "/static/media/mecolor.f8f953ff0e3e352047f6.jpg",
+    "static/media/Cori.JPG": "/static/media/Cori.c4b2e8cb44cb48f8d438.JPG",
+    "static/media/Austin.jpg": "/static/media/Austin.2b4b2efed3817891c248.jpg",
+    "static/media/Rhiannon.JPG": "/static/media/Rhiannon.9c177b3e1323b8554977.JPG",
+    "static/media/woodsbnw.jpg": "/static/media/woodsbnw.7dc8d5530e77db2a73b9.jpg",
+    "static/media/Fate.JPG": "/static/media/Fate.e7882df0299e4dc24d69.JPG",
+    "static/media/mebnw.jpg": "/static/media/mebnw.520e41e69d425dddadc5.jpg",
+    "static/media/Logo.png": "/static/media/Logo.b658120b3a225d2f6972.png",
+    "index.html": "/index.html",
+    "main.73e69331.css.map": "/static/css/main.73e69331.css.map",
+    "main.441c3fb2.js.map": "/static/js/main.441c3fb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73e69331.css",
+    "static/js/main.441c3fb2.js"
+  ]
+}
