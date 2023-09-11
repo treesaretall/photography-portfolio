@@ -8,7 +8,6 @@ import Portfolio from "../pages/Portfolio";
 import { AnimatePresence } from "framer-motion";
 
 import { Routes, Route, useLocation } from "react-router-dom";
-
 const AnimRoutes = () => {
   const location = useLocation();
   return (

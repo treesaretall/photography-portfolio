@@ -22,3 +22,7 @@ module.exports = {
   },
   plugins: [],
 };
+
+//    "predeploy": "npm run build",
+// "deploy": "gh-pages -d build",
+// "homepage": "https://treesaretall.github.io/photography-portfolio/"
