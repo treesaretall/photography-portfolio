@@ -28,10 +28,13 @@ const Home = () => {
             transition={transition1}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaverHandler}
-            className="w-full pt-36 pb-14 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start">
-            <h1 className="h1">Photographer</h1>
-            <p className="text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12">
-              Orlando, FL
+            className="w-full pt-36 pb-14 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:-left-4 lg:absolute flex flex-col justify-center items-center lg:items-start">
+            <h1 className="h1 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
+              Pho
+              <span className="lg:text-slate-200 lowercase">tographer</span>
+            </h1>
+            <p className="text-[26px] lg:text-[34px] font-primary mb-4 lg:mb-12">
+              Orlando,FL
             </p>
             <Link to={"/contact"} className="btn mb-[30px] text-[14px]">
               Hire Me
