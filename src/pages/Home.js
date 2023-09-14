@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-import mebnw from "../img/home/mebnw.jpg";
+import mebnw from "../img/home/mebnw.webp";
 
 import { Link } from "react-router-dom";
 

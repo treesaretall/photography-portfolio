@@ -1,5 +1,7 @@
 import React, { useState, useEffect, createContext } from "react";
 
+import debounce from "lodash.debounce";
+
 export const CursorContext = createContext();
 
 const CursorProvider = ({ children }) => {
@@ -14,16 +16,16 @@ const CursorProvider = ({ children }) => {
 
   useEffect(() => {
     if (!mobileViewportIsActive) {
-      const move = (e) => {
+      const handleMouseMove = debounce((e) => {
         setCursorPos({
           x: e.clientX,
           y: e.clientY,
         });
-      };
-      window.addEventListener("mousemove", move);
+      }, 16);
+      window.addEventListener("mousemove", handleMouseMove);
 
       return () => {
-        window.removeEventListener("mousemove", move);
+        window.removeEventListener("mousemove", handleMouseMove);
       };
     } else {
       setCursorBG("none");
