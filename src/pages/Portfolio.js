@@ -17,6 +17,8 @@ import { transition1 } from "../transitions";
 
 import { CursorContext } from "../context/CursorContext";
 
+import { ImInstagram } from "react-icons/im";
+
 const Portfolio = () => {
   const { mouseEnterHandler, mouseLeaverHandler } = useContext(CursorContext);
   // const scroll = (scrollOffset) => {
@@ -41,15 +43,14 @@ const Portfolio = () => {
             className="flex flex-col lg:items-start">
             <h1 className="h1">Portfolio</h1>
             <p className="mb-12 max-w-sm">
-              Gers uiregiuh hiusdf. ihuahiusg hiurefhiu raiueh. ihudsvaiu
-              fhreiuh faiuec iaehuhfg iuhaeiufh. asihucvaei rhurfciaewuhf
-              husafei fhuieaw.
+              A brief selection of my work. More can be found on my InstaGram.
             </p>
-            <Link
-              to={"/contact"}
-              className="btn md:mb-[30px] sm:mb-[10px] mx-auto lg:mx-0">
-              Hire me
-            </Link>
+            <a
+              className="md:mb-[30px] sm:mb-[10px] mx-auto lg:mx-0"
+              href="https://www.instagram.com/notaboutcows/"
+              target="_blank">
+              <ImInstagram className="w-[50px] h-[50px]" />
+            </a>
           </motion.div>
 
           <div
