@@ -1,11 +1,11 @@
 import React, { useContext } from "react";
 
-import Austin from "../img/portfolio/Austin.jpg";
-import Cori from "../img/portfolio/Cori.JPG";
-import Fate from "../img/portfolio/Fate.JPG";
-import Jade from "../img/portfolio/Jade.JPG";
-import Rhiannon from "../img/portfolio/Rhiannon.JPG";
-import Sandra from "../img/portfolio/Sandra.JPG";
+import Austin from "../img/portfolio/Austin.webp";
+import Cori from "../img/portfolio/Cori.webp";
+import Fate from "../img/portfolio/Fate.webp";
+import Jade from "../img/portfolio/Jade.webp";
+import Rhiannon from "../img/portfolio/Rhiannon.webp";
+import Sandra from "../img/portfolio/Sandra.webp";
 import LeftArrow from "../img/arrow/arrow-left.png";
 import RightArrow from "../img/arrow/arrow-right.png";
 

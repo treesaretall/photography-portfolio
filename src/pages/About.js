@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-import woodsbnw from "../img/about/woodsbnw.jpg";
+import woodsbnw from "../img/about/woodsbnw.webp";
 
 import { Link } from "react-router-dom";
 

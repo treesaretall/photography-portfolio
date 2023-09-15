@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-import mecolor from "../img/contact/mecolor.jpg";
+import mecolor from "../img/contact/mecolor.webp";
 
 import { motion } from "framer-motion";
 
