@@ -10,11 +10,11 @@ const Socials = () => {
     <div
       onMouseEnter={mouseEnterHandler}
       onMouseLeave={mouseLeaverHandler}
-      className="hidden xl:flex ml-24">
+      className="hidden xl:flex ml-14">
       <ul className="flex gap-x-4">
         <li>
           <a href="https://www.instagram.com/notaboutcows/" target="_blank">
-            <ImInstagram />
+            <ImInstagram className="w-8 h-8 bg-white" />
           </a>
         </li>
       </ul>

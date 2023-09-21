@@ -27,22 +27,22 @@ const Header = () => {
           className="hidden xl:flex gap-x-12 font-semibold">
           <Link
             to={"/"}
-            className="text-[#696c6d] hover:text-primary transition">
+            className="text-[#696c6d] btn bg-white w-8 h-8 rounded-full hover:text-primary transition">
             Home
           </Link>
           <Link
             to={"/about"}
-            className="text-[#696c6d] hover:text-primary transition">
+            className="text-[#696c6d] btn bg-white w-8 h-8 rounded-full hover:text-primary transition">
             About
           </Link>
           <Link
             to={"/portfolio"}
-            className="text-[#696c6d] hover:text-primary transition">
+            className="text-[#696c6d] btn bg-white w-8 h-8 rounded-full hover:text-primary transition">
             Portfolio
           </Link>
           <Link
             to={"/contact"}
-            className="text-[#696c6d] hover:text-primary transition">
+            className="text-[#696c6d] btn bg-white w-8 h-8 rounded-full hover:text-primary transition">
             Contact
           </Link>
         </nav>
