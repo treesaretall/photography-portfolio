@@ -1,12 +1,13 @@
 import React, { useContext } from "react";
 
-import mecolor from "../img/contact/mecolor.webp";
-
 import { motion } from "framer-motion";
 
 import { transition1 } from "../transitions";
 
 import { CursorContext } from "../context/CursorContext";
+
+const mecolor =
+  "https://drive.google.com/uc?export=view&id=1q57qroJ53GE0KYhbYBLkgAhbILb3-ayh";
 
 const Contact = () => {
   const { mouseEnterHandler, mouseLeaverHandler } = useContext(CursorContext);

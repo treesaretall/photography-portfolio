@@ -1,14 +1,5 @@
 import React, { useContext } from "react";
 
-import Austin from "../img/portfolio/Austin.webp";
-import Cori from "../img/portfolio/Cori.webp";
-import Fate from "../img/portfolio/Fate.webp";
-import Jade from "../img/portfolio/Jade.webp";
-import Rhiannon from "../img/portfolio/Rhiannon.webp";
-import Sandra from "../img/portfolio/Sandra.webp";
-import LeftArrow from "../img/arrow/arrow-left.png";
-import RightArrow from "../img/arrow/arrow-right.png";
-
 import { Link } from "react-router-dom";
 
 import { motion } from "framer-motion";
@@ -18,6 +9,19 @@ import { transition1 } from "../transitions";
 import { CursorContext } from "../context/CursorContext";
 
 import { ImInstagram } from "react-icons/im";
+
+const Jade =
+  "https://drive.google.com/uc?export=view&id=1wboNx-UrId_3WMseSr69-Xj9p2llDUd8";
+const Austin =
+  "https://drive.google.com/uc?export=view&id=1xoYmMd5VfnWN9IReAQMcAzCFAgUap5lP";
+const Sandra =
+  "https://drive.google.com/uc?export=view&id=1wWRiRRFcv0YugwOsG5JhYDfUuIsqzU4Y";
+const Cori =
+  "https://drive.google.com/uc?export=view&id=1E8Mr6NPiJFV_1yERPY5UCtGxrbZ83LNk";
+const Rhiannon =
+  "https://drive.google.com/uc?export=view&id=1uVNnbVsQ8aGwpc_TrlaIj4mpsW_pPQx8";
+const Fate =
+  "https://drive.google.com/uc?export=view&id=1Gil1wKVA_zA29qoo7gf98W37lmi3OKY3";
 
 const Portfolio = () => {
   const { mouseEnterHandler, mouseLeaverHandler } = useContext(CursorContext);

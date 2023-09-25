@@ -1,7 +1,5 @@
 import React, { useContext } from "react";
 
-import mebnw from "../img/home/mebnw.webp";
-
 import { Link } from "react-router-dom";
 
 import { motion } from "framer-motion";
@@ -9,6 +7,8 @@ import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
 import { CursorContext } from "../context/CursorContext";
 
+const mebnw =
+  "https://drive.google.com/uc?export=view&id=1AapMYc19bp-7X3A4G2nka64PM0i44N_3";
 const Home = () => {
   const { mouseEnterHandler, mouseLeaverHandler } = useContext(CursorContext);
   return (

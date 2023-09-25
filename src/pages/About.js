@@ -1,7 +1,5 @@
 import React, { useContext } from "react";
 
-import woodsbnw from "../img/about/woodsbnw.webp";
-
 import { Link } from "react-router-dom";
 
 import { motion } from "framer-motion";
@@ -9,6 +7,9 @@ import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
 
 import { CursorContext } from "../context/CursorContext";
+
+const woodsbnw =
+  "https://drive.google.com/uc?export=view&id=1-e6kcUQgrsm4DwwwZ7CL4EekSfyO2D8M";
 
 const About = () => {
   const { mouseEnterHandler, mouseLeaverHandler } = useContext(CursorContext);
@@ -37,9 +38,8 @@ const About = () => {
             <p className="mb-12 max-w-sm">
               <b>
                 My name is Matt and I've been practicing photography for 10
-                years, primarily in portraiture. I've worked professionally for
-                many years and have taken a step back, now only shooting on
-                select projects.
+                years. I've worked professionally for many years and have taken
+                a step back, now only shooting on select projects.
               </b>
             </p>
             <Link to={"/portfolio"} className="btn">
